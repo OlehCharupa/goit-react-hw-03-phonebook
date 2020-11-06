@@ -1,0 +1,40 @@
+.contactList {
+  padding: 30px;
+  margin: 0;
+  margin-top: 20px;
+  list-style: none;
+  width: 350px;
+}
+.contactItem {
+  padding: 20px 10px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: lightgoldenrodyellow;
+  transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contactItem:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.contactName {
+  margin: 0;
+  width: 45%;
+  font-size: 20px;
+  display: block;
+}
+.contactNumber {
+  margin: 0;
+  width: 50%;
+  font-size: 25px;
+  color: blue;
+}
+.del_Btn {
+  background-color: inherit;
+  outline: none;
+  border: none;
+}
+.del_Btn::after {
+  content: "\26d4";
+}

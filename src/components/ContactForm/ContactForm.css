@@ -1,0 +1,44 @@
+.contactForm {
+  text-align: center;
+  outline: 1px solid black;
+  padding: 30px;
+  width: 350px;
+  background-color: lightgoldenrodyellow;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.labelName,
+.labelNumber {
+  display: block;
+  font-size: 25px;
+}
+.inputName,
+.inputNumber {
+  margin: 10px auto;
+  margin-top: 10px;
+  display: block;
+  padding: 10px;
+  padding-left: 25px;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.inputName:focus,
+.inputName:hover,
+.inputNumber:focus,
+.inputNumber:hover,
+.btnForm:hover,
+.btnForm:focus {
+  border: 3px solid blue;
+  outline: none;
+}
+
+.btnForm {
+  padding: 10px;
+  font-size: 25px;
+  color: blue;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+}

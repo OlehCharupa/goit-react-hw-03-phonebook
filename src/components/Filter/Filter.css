@@ -1,0 +1,19 @@
+.labelSearch {
+  display: block;
+  font-size: 25px;
+}
+.inputSearch {
+  margin-top: 10px;
+  display: block;
+  padding: 8px;
+  padding-left: 25px;
+  font-size: 17px;
+  border: 3px solid black;
+
+  border-radius: 15px;
+}
+.inputSearch:focus,
+.inputSearch:hover {
+  border: 3px solid blue;
+  outline: inherit;
+}
